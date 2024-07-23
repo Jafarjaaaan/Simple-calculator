@@ -1,0 +1,4 @@
+from rand_string.rand_string import RandString 
+import os
+for i in range(5):
+    os.mkdir(RandString("uppercase",6))
